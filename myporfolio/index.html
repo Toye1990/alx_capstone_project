@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <section id="header">
+   <div class="navbar">
+    <nav>
+     <ul>
+        <li><a href="#About_me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+    </nav>
+   </div>
+    </section>
+
+    <section id="About_me">
+        <h2>ABOUT ME</h2>
+        <div class="row">
+     <div class="col-1">
+        <img src="./images/man-trader-with-laptop-monito_917213-13956.jpg" alt="">
+     </div>
+     <div class="col-1">
+        <div class="col-text">
+        <p><span class="name">My name is femi.</span> I am a graphic designer, video editor and web developer. I love what i do and 
+        and i always inspired and motivated by good designs i see online. This prompt me to 
+        always want to create something much digitally different.
+        </p>
+    </div>
+    </div>
+     </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <div class="row">
+        <div class="skillset">
+            <img src="./images/photo-1626785774573-4b799315345d.jpg" alt="">
+            <div class="skilltext">
+                <h3>Graphic Design</h3>
+                <blockquote>
+                   “Styles come and go. Good design is a language, not a style.”
+                     <span><p>Massimo Vignelli, designer</p></span>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="skillset">
+            <img src="./images/ui-ux-team-concept-illustration_114360-14912.jpg" alt="">
+            <div class="skilltext">
+                <h3>Web developer</h3>
+                <blockquote>
+                    "Great web design without functionality is like a sports car with no engine".
+                     <span><p>Paul Cookson</p></span>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="skillset">
+            <img src="./images/video edit pic1.png" alt="">
+            <div class="skilltext">
+                <h3>Video Editing</h3>
+                <blockquote>
+                    “The process of editing is what I enjoy most putting the pieces together and making sense out of them.” 
+                     <span><p>Christian Marclay</p></span>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="row">
+    <div class="project-work">
+        <p>My graphic design are worth checking out</p>
+        <img src="./images/aprov monday.jpg" alt="">
+        <button><a href="">check for more</a></button>
+    </div>
+
+    <div class="project-work">
+        <p>Web development project on the way</p>
+        <img src="./images/businessman-working-laptop-office-vector-illustration-flat-style_938798-585.jpg" alt="">
+        <button><a href="">check for more</a></button>
+    </div>
+
+    <div class="project-work">
+        <p>My video editing profile is very concise</p>
+        <img src="./images/ac0fe2-20180216-black-panther-movie02.jpg" alt="">
+        <img src="./images/play icon.png" alt="" id="playmd" onclick="play('./images/Comp1.mp4')">
+        <img src="./images/play icon.png" alt="" id="playst" onclick="play('./images/Comp1.mp4')">
+        <!--<img src="./images/stop icon.png" alt="" id="stoptac">-->
+        <button><a href="">check for more</a></button>
+    </div>
+</div>
+    </section>
+
+    <div id="video-player">
+        <video controls width="100%" autoplay id="videoplay">
+            <source src="./images/Comp1.mp4" type="video/mp4">
+        </video>
+        <img src="./images/close icon2.png" alt="" id="closebtn">
+    </div>
+
+    <section id="contact">
+        <h2>contact Information</h2>
+        <div id="contact-link">
+            <form action="">
+                <p>
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                </p>
+
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                </p>
+
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </p>
+
+                <p>
+                    <label for="phonenumber">Phone No:</label>
+                    <input type="number" id="phonenumber" required>
+                    </p>
+
+                <p>
+
+                <p>
+                    <button type="submit" id="btn">submit</button>
+                </p>
+
+                
+            </form>
+        </div>
+
+        <section id="footerpoint">
+            <footer>
+                <div>
+                    <p>You can always reach out to me via all contacts provided on this site</p>
+                </div>
+                <div class="footer-text">
+                copyright&copy; <script>document.write(new Date().getFullYear())</script>
+            </div>
+            </footer>
+    </section>
+
+
+
+    <script src="new.js">
+    </script>
+</div>
+</body>
+</html>
